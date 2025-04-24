@@ -1,0 +1,173 @@
+/* Sun Magnifying effect time timingfunction linear(Constant speed)*/*/
+.sun #circle1{
+    animation: suncircle 3.5s linear infinite;
+    transform-origin: center center;
+}
+
+.sun #circle2{
+    animation: suncircle 3.5s linear infinite 1s;
+    transform-origin: center center;
+}
+
+/* Sun opacity & scale */
+@keyframes suncircle{
+    0%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(1.4);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.7);
+    }
+
+}
+
+/* Sea animation effect time ease(slow-fast-slow)*/
+#sea{
+    animation: sea 5s ease infinite;
+}
+
+@keyframes sea{
+    50%{
+        height: 44vh;
+    }
+    100%{
+        height: 40vh;   
+    }
+}
+
+/* Boat animation effect time ease(slow-fast-slow)*/
+#boat{
+    animation: boat 4.5s ease infinite;
+}
+
+@keyframes boat{
+    0%{
+        top: 55%;
+    }
+    50%{
+        top: 50%;
+    }
+    100%{
+        top: 55%;
+    }
+}
+
+/* Smoke animation effect time linear(Constant speed)*/
+.smoke1{
+    animation: smoke1 4s linear infinite;
+}
+
+@keyframes smoke1{
+    0%{
+        opacity: 2;
+    }
+    50%{
+        opacity: 0;
+        transform: translate(-300px, -90px) scale(3);
+    }
+}
+
+/* Smoke animation effect time linear(Constant speed)*/
+.smoke2{
+    animation: smoke2 4s linear infinite 1s;
+}
+
+@keyframes smoke2{
+    0%{
+        opacity: 2;
+    }
+    50%{
+        opacity: 0;
+        transform: translate(-300px, -90px) scale(3);
+    }
+}
+
+/* Smoke animation effect time linear(Constant speed)*/
+.smoke3{
+    animation: smoke3 4s linear infinite 2s;
+}
+
+@keyframes smoke3{
+    0%{
+        opacity: 2;
+    }
+    50%{
+        opacity: 0;
+        transform: translate(-300px, -90px) scale(3);
+    }
+}
+
+/* Cloud animation effect time linear(Constant speed)*/
+.cloud1{
+    animation: cloud1 45s linear infinite;
+}
+
+@keyframes cloud1 {
+    50%{
+        left: 55%;
+    }
+    100%{
+        left: 12%;
+    }
+}
+
+/* Cloud animation effect time linear(Constant speed)*/
+.cloud2{
+    animation: cloud2 45s linear infinite;
+}
+
+@keyframes cloud2 {
+    50%{
+        left: 60%;
+    }
+    100%{
+        left: 22%;
+    }
+}
+
+/* Cloud animation effect time linear(Constant speed)*/
+.cloud3{
+    animation: cloud3 45s linear infinite;
+}
+
+@keyframes cloud3 {
+    50%{
+        left: 50%;
+    }
+    100%{
+        left: 5%;
+    }
+}
+
+/* Cloud animation effect time linear(Constant speed)*/
+.cloud4{
+    animation: cloud4 45s linear infinite;
+}
+
+@keyframes cloud4 {
+    50%{
+        left: 90%;
+    }
+    100%{
+        left: 75%;
+    }
+}
+
+/* Cloud animation effect time linear(Constant speed)*/
+.cloud5{
+    animation: cloud5 45s linear infinite;
+}
+
+@keyframes cloud5 {
+    50%{
+        left: 95%;
+    }
+    100%{
+        left: 82%;
+    }
+}
+
